@@ -1,6 +1,5 @@
 import requests
 
-
 def jetbrains_request(endpoint, method, host, password = None, port = None):
     if port is not None:
         requests.request(method, f"http://{host}:{port}{endpoint}", headers = { "Authorization": password })

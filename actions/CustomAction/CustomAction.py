@@ -1,4 +1,4 @@
-from data.plugins.me_tiebe_streamdeck_plugin_jetbrains.actions.DefaultAction.DefaultAction import DefaultAction
+from plugins.me_tiebe_streamdeck_plugin_jetbrains.actions.DefaultAction.DefaultAction import DefaultAction
 
 import gi
 gi.require_version("Gtk", "4.0")

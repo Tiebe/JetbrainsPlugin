@@ -1,7 +1,5 @@
-from data.plugins.me_tiebe_streamdeck_plugin_jetbrains.connection import jetbrains_request
-from src.backend.DeckManagement.InputIdentifier import Input
+from plugins.me_tiebe_streamdeck_plugin_jetbrains.connection import jetbrains_request
 from src.backend.PluginManager.ActionBase import ActionBase
-from src.backend.PluginManager.EventAssigner import EventAssigner
 
 import urllib.parse
 
